@@ -10,6 +10,7 @@ def draw_plot():
     y = df['CSIRO Adjusted Sea Level']
 
     # Create scatter plot
+    plt.figure()
     plt.scatter(x, y, label='Sea Level Data')
     
 
